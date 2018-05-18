@@ -1,0 +1,330 @@
+$default-black-color: #585858;
+$default-white-color: #c3c3c3;
+$white1: #dedcdc;
+$white2: #737373;
+body
+	font-family: "Roboto"
+img
+	max-width: 100%
+a
+	color: black
+p
+	color: $default-white-color
+.title
+	text-align: center
+	font-size: 30px
+	font-weight: 400
+	text-transform: uppercase
+.small-title
+	text-align: center
+	color: gray
+	margin-bottom: 20px
+	font-size: 20px
+	font-weight: 400
+	a
+		color: #565656
+.line
+	width: 150px
+	height: 2px
+	background-color: black
+	margin: 30px auto
+.container
+	width: 1200px
+	margin: 0 auto
+section
+	padding: 30px 0
+section.header
+	background-color: #f5feff
+	background-image: url("../images/bg.jpg")
+	background-repeat: no-repeat
+	background-size: cover
+	// height: 100vh
+	.title
+		color: black
+	.line
+		background-color: black
+.header
+	&-menu
+		margin-bottom: 100px
+		.contact-me
+			display: inline-block
+			cursor: pointer
+			i
+				color: #000000
+				margin-right: 5px
+			span
+				color: #000000
+.contact-links
+	float: right
+	ul li
+		display: inline-block
+		margin-right: 5px
+		color: $default-black-color
+		i
+			color: $default-black-color
+.info-about
+	float: left
+	width: 70%
+	padding-top: 200px
+	.name
+		font-size: 25px
+		font-weight: 400
+		color: $white1
+		letter-spacing: 0.5px
+		margin-bottom: 20px
+	.about
+		color: $default-white-color
+		ul.sites
+			margin: 10px 0
+	.download_link
+		display: inline-block
+		padding: 10px 20px
+		margin-top: 10px
+		background-color: #ff0044d9
+		color: #ffffff
+		opacity: 0.9
+		transition: all .3s
+.info-image
+	float: right
+	width: 30%
+	img
+		border-radius: 50%
+section.skills
+	background-color: #f8f9fa
+.skills-list
+	position: relative
+	margin-bottom: 30px
+.skill-item
+	float: left
+	width: 20%
+	height: 110px
+	padding: 0px 10px
+	text-align: center
+	i
+		font-size: 57px
+		color: $default-black-color
+		margin-bottom: 10px
+		display: block
+	img.custom-icon
+		width: 57px
+		height: 57px
+		margin: 0 auto 10px
+		display: block
+		background-repeat: no-repeat
+		background-position: center
+	p
+		color: $default-black-color
+
+section.works
+	background-color: #f1f1f1
+.work
+	float: left
+	width: 33.33%
+	padding: 0px 20px
+	margin-bottom: 30px
+	&-photo
+		position: relative
+		height: 250px
+		cursor: pointer
+		border: 1px solid #e0e0e0
+		border-bottom: none
+		p
+			font-size: 25px
+			line-height: 250px
+			text-align: center
+		img
+			position: absolute
+			top: 0
+			right: 0
+			bottom: 0
+			left: 0
+			margin: auto
+			max-width: 90%
+	&-desc
+		height: 100px
+		padding: 5px
+		background-color: #ffffff
+		text-align: center
+		p
+			font-style: italic
+.appsreview .work-photo
+	background-color: #00c6ffb3
+.work-modal-window
+	position: fixed
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	background-color: rgba(0, 0, 0, 0.3)
+	visibility: hidden
+	opacity: 0
+	padding: 20px
+	z-index: 1
+	transition: all .3s
+	&-inner
+		background-color: #ffffff
+		width: 100%
+		height: 100%
+		padding: 30px
+		transform: scaleY(0)
+		transition: all .3s
+.window-shown
+	visibility: visible !important
+	opacity: 1 !important
+	.work-modal-window-inner
+		transform: scaleY(1)
+.window-close
+	float: right
+	font-size: 50px
+	color: #a29e9e
+	font-weight: 300
+	cursor: pointer
+.window-image
+	width: 80%
+	margin: 0 auto
+	max-height: 85%
+	overflow: auto
+	img
+		display: block
+		margin: 0 auto
+
+section.about-me
+	background-color: #f9f9f9
+	ul
+		position: relative
+		&::before
+			content: ""
+			position: absolute
+			top: 2px
+			bottom: 180px
+			left: 50%
+			transform: translateX(-50%)
+			width: 2px
+			background-color: #d6d6d6
+		li
+			min-height: 50px
+			margin-bottom: 50px
+			&:nth-child(odd) .about-me-desc
+				float: right
+			.about-me-image
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				img
+					border-radius: 50%
+					width: 90px
+			.about-me-desc
+				max-width: 40%
+				color: $default-black-color
+				.info-time
+					font-size: 18px
+					font-weight: 700
+				.info-title
+					margin: 7px 0
+					font-size: 20px
+				p
+					font-weight: 300
+					color: $default-black-color
+
+section.contact-me
+	background-color: #eaeaea
+form.contact-me_form
+	width: 800px
+	margin: 50px auto 0
+	position: relative
+	input[type="text"]
+		border: none
+		width: 100%
+		padding: 40px 20px
+	.mail-subject
+		background-color: #91def5
+		color: white
+		font-size: 20px
+		border-top-left-radius: 10px
+		border-top-right-radius: 10px
+		&::placeholder
+			color: white
+	.textarea-wrapper
+		height: 250px
+		padding-bottom: 50px
+		background-color: #ffffff
+	.mail-message
+		border: none
+		width: 100%
+		height: 100%
+		resize: none
+		padding: 40px 20px
+		font-size: 15px
+		letter-spacing: 0.2px
+		color: $default-black-color
+		&::placeholder
+			color: $default-black-color
+	.mail-submit
+		position: absolute
+		bottom: 0
+		left: 0
+		border: none
+		background-color: transparent
+		color: $default-black-color
+		padding: 15px 20px
+		font-size: 17px
+		cursor: pointer
+		transition: all .3s ease-in-out
+		&:hover
+			background-color: #99d6f3
+			color: white
+	.form-prompt
+		position: absolute
+		width: 50%
+		bottom: 0
+		right: 50px
+		color: #d46767
+		opacity: 0
+		padding: 15px 0
+		transition: all .3s
+		&[data-prompt="shown"]
+			opacity: 1
+			right: 0
+
+.system-window-overlay
+	position: fixed
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+	background-color: rgba(0, 0, 0, 0.3)
+	visibility: hidden
+	opacity: 0
+	transition: all .3s
+	.system-window
+		position: fixed
+		top: 0
+		right: 0
+		bottom: 0
+		left: 0
+		margin: auto
+		width: 350px
+		height: 300px
+		background-color: white
+		&-title
+			padding: 20px
+			background-color: #869ce8
+			color: white
+		&-message
+			padding: 20px
+			color: $default-black-color
+		&-close
+			position: absolute
+			bottom: 0
+			width: 100%
+			text-align: center
+			padding: 20px 0
+			background-color: #a8b8ce
+			color: white
+			cursor: pointer
+footer
+	padding: 30px 0
+	color: $white1
+	background-color: #1f1f1f
+	.contact-links ul li, .contact-links ul li i
+		color: $white1

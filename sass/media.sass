@@ -1,0 +1,50 @@
+// @media screen and (min-width: 1200px)
+
+
+@media screen and (max-width: 1200px)
+	.container
+		width: 980px
+	.work-photo
+		height: 150px
+		p
+			line-height: 150px
+	form.contact-me_form
+		width: 800px
+
+@media screen and (max-width: 992px)
+	.container
+		width: 750px
+	form.contact-me_form
+		width: 700px
+
+@media screen and (max-width: 768px)
+	.container
+		width: 100%
+		padding: 0px 20px
+	.work
+		width: 50%
+	form.contact-me_form
+		width: 100%
+
+@media screen and (max-width: 550px)
+	section.about-me ul
+		&::before
+			content: none
+		li
+			&:nth-child(odd) .about-me-desc
+				float: none
+			.about-me-image
+				position: static
+				left: auto
+				transform: none
+				float: left
+			.about-me-desc
+				float: none
+				max-width: none
+				padding-left: 110px
+
+@media screen and (max-width: 500px)
+	.skill-item
+		width: 33.333%
+	.work-photo p
+		font-size: 17px
