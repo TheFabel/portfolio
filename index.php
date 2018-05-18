@@ -41,6 +41,7 @@ $_SESSION['key'] = $key;
 <body><script type="text/javascript">
 	t = performance.now();
 </script>
+<div style="position: fixed;top:30px;left:0;right:0;width: 115px;margin:0 auto;z-index: 1;">IN DEVELOPING</div>
 	<section class="header">
 		<div class="container clearfix">
 			<div class="header-menu">
