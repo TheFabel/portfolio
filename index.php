@@ -41,42 +41,50 @@ $_SESSION['key'] = $key;
 <body><script type="text/javascript">
 	t = performance.now();
 </script>
-<div style="position: fixed;top:30px;left:0;right:0;width: 115px;margin:0 auto;z-index: 1;">IN DEVELOPING</div>
 	<section class="header">
-		<div class="container clearfix">
+		<!-- <div class="container clearfix"> -->
 			<div class="header-menu">
-				<div class="contact-me">
-					<i class="fa fa-comments"></i>
-					<span><?=$l['contact_me']?></span>
-				</div>
-				<div class="contact-links">
-					<ul>
-						<li class="contact-link"><a href="" target="_blank"><i class="fab fa-facebook" title="Facebook"></i></a></li>
-						<li class="contact-link"><a href="" target="_blank"><i class="fab fa-vk" title="VK"></i></a></li>
-						<li class="contact-link"><a href="https://github.com/TheFabel" target="_blank"><i class="fab fa-github" title="Github"></i></a></li>
-						<li class="contact-link"><a href="mailto:anashkin522a@gmail.com"><i class="fas fa-envelope" title="Mail"></i></a></li>
-						<li class="contact-link phone_number">+380501073060</li>
-						<li><img class="lang-change" src="images/<?=$to_change?>.png" alt="Country flag" style="width: 15px; cursor: pointer;" data-to_change="<?=$to_change?>"></li>
-					</ul>
-				</div>
-			</div>
-			<div class="header-info clearfix">
-				<h1 class="title"><?=$l['about_me_title']?></h1>
-				<div class="line"></div>
-				<div class="info-about">
-					<h1 class="name">
-						<?=$l['my_name']?>
-					</h1>
-					<div class="about">
-						<p><?=$l['about_me']?></p>
-						<a href="#" target="_blank" class="download_link"><?=$l['download_resume']?></a>
+				<div class="container clearfix">
+					<div class="contact-me">
+						<i class="fa fa-comments"></i>
+						<span><?=$l['contact_me']?></span>
+					</div>
+					<div class="contact-links">
+						<ul>
+							<li class="contact-link"><a href="" target="_blank"><i class="fab fa-facebook" title="Facebook"></i></a></li>
+							<li class="contact-link"><a href="" target="_blank"><i class="fab fa-vk" title="VK"></i></a></li>
+							<li class="contact-link"><a href="https://github.com/TheFabel" target="_blank"><i class="fab fa-github" title="Github"></i></a></li>
+							<li class="contact-link"><a href="mailto:anashkin522a@gmail.com"><i class="fas fa-envelope" title="Mail"></i></a></li>
+							<li class="contact-link phone_number">+380501073060</li>
+							<li class="has-dropdown">
+								<img src="images/<?=$lang?>.png" alt="Country flag" style="width: 15px; cursor: pointer;">
+								<div class="dropdown">
+									<img class="lang-change" src="images/<?=$to_change?>.png" alt="Country flag" style="width: 15px; cursor: pointer;" data-to_change="<?=$to_change?>">
+								</div>
+							</li>
+						</ul>
 					</div>
 				</div>
-				<div class="info-image">
-					<img src="images/350x350.png" alt="Profile image">
+			</div>
+			<div class="header-info">
+				<div class="container clearfix">
+					<h1 class="title"><?=$l['about_me_title']?></h1>
+					<div class="line"></div>
+					<div class="info-about">
+						<h1 class="name">
+							<?=$l['my_name']?>
+						</h1>
+						<div class="about">
+							<p><?=$l['about_me']?></p>
+							<a href="#" target="_blank" class="download_link"><?=$l['download_resume']?></a>
+						</div>
+					</div>
+					<div class="info-image">
+						<img src="images/350x350.png" alt="Profile image">
+					</div>
 				</div>
 			</div>
-		</div>
+		<!-- </div> -->
 	</section>
 	<section class="skills">
 		<div class="container">

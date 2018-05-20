@@ -18,7 +18,7 @@ return [
   "about_me_section" => "education and work experience",
   "about_me_list" => array(
     array(
-      "image" => "images/making-website.png",
+      "image" => "images/making-website.jpg",
       "time" => "10.26.2017 - 04.11.2018",
       "title" => "Development and support of WordPress sites",
       "desc" => array(
@@ -26,7 +26,7 @@ return [
       )
     ),
     array(
-      "image" => "images/internship.png",
+      "image" => "images/internship.jpg",
       "time" => "07.18.2017 - 08.20.2017",
       "title" => "Internship at IT company «WebStar»",
       "desc" => array(
@@ -35,7 +35,7 @@ return [
       )
     ),
     array(
-      "image" => "images/university-1.png",
+      "image" => "images/university-1.jpg",
       "time" => "2017 - to the present",
       "title" => "«Odessa I. I. Mechnikov National University»",
       "desc" => array(
@@ -44,7 +44,7 @@ return [
       )
     ),
     array(
-      "image" => "images/university-2.png",
+      "image" => "images/university-2.jpg",
       "time" => "2015 - 2017",
       "title" => "«Odessa I. I. Mechnikov National University»",
       "desc" => array(
@@ -54,7 +54,7 @@ return [
       )
     ),
     array(
-      "image" => "images/college.png",
+      "image" => "images/college.jpg",
       "time" => "2013 - 2015",
       "title" => "College of Economics and Social Work at the Odessa I. I. Mechnikov National University",
       "desc" => array(

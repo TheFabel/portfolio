@@ -96,7 +96,7 @@ function sendMessage($subject, $message, $query)
     $mail->Subject = "Сообщение с сайта anashkin.ml - ".$message;
     $mail->MsgHTML($template);
     $mail->IsHTML(true);
-    $mail->AddAddress("anashkin522a@gmail.com");
+    $mail->AddAddress("");
     if(!$mail->Send())
     {
       echo "Mailer Error: " . $mail->ErrorInfo;
