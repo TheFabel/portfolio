@@ -1,6 +1,7 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
 var autoprefixer = require('gulp-autoprefixer');
+var minCss = require('gulp-minify-css');
 var browserSync = require("browser-sync").create();
 
 gulp.task("sass", function()
@@ -8,6 +9,7 @@ gulp.task("sass", function()
 	return gulp.src("./sass/*.sass")
 	.pipe(sass())
 	.pipe(autoprefixer({browsers: ['last 2 versions']}))
+	.pipe(minCss())
 	.pipe(gulp.dest("./css"))
 	.pipe(browserSync.stream());
 });

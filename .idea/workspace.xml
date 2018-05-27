@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb7cf98-4f40-409b-a341-a38ffa6a850c" name="Default" comment="" />
+    <list default="true" id="1cb7cf98-4f40-409b-a341-a38ffa6a850c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/mail.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,23 +29,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sass/style.sass" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/server/mail.php" />
       </list>
     </option>
   </component>
@@ -48,6 +61,7 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/fonts/devicon/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
@@ -62,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,11 +89,15 @@
               <item name="portfolio.loc" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="portfolio.loc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio.loc" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,11 +128,12 @@
       <updated>1525878209855</updated>
       <workItem from="1525878212129" duration="65000" />
       <workItem from="1525878357271" duration="60000" />
+      <workItem from="1527194109468" duration="739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125000" />
+    <option name="totallyTimeSpent" value="864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="57" width="1400" height="1000" extended-state="0" />
@@ -121,7 +141,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -136,9 +156,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +168,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -157,15 +184,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="360">
+          <caret line="132" column="31" lean-forward="true" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="286">
+          <caret line="285" column="61" lean-forward="true" selection-start-line="285" selection-start-column="61" selection-end-line="285" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>

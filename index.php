@@ -34,7 +34,6 @@ $_SESSION['key'] = $key;
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/roboto.css">
 	<link rel="stylesheet" href="fonts/FontAwesome/css/fontawesome-all.css">
-	<link rel="stylesheet" href="fonts/devicon/devicon.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
@@ -55,7 +54,7 @@ $_SESSION['key'] = $key;
 							<li class="contact-link"><a href="" target="_blank"><i class="fab fa-vk" title="VK"></i></a></li>
 							<li class="contact-link"><a href="https://github.com/TheFabel" target="_blank"><i class="fab fa-github" title="Github"></i></a></li>
 							<li class="contact-link"><a href="mailto:anashkin522a@gmail.com"><i class="fas fa-envelope" title="Mail"></i></a></li>
-							<li class="contact-link phone_number">+380501073060</li>
+							<li class="contact-link phone_number"><a href="tel:+380501073060">+380501073060</a></li>
 							<li class="has-dropdown">
 								<img src="images/<?=$lang?>.png" alt="Country flag" style="width: 15px; cursor: pointer;">
 								<div class="dropdown">
@@ -70,6 +69,9 @@ $_SESSION['key'] = $key;
 				<div class="container clearfix">
 					<h1 class="title"><?=$l['about_me_title']?></h1>
 					<div class="line"></div>
+					<!-- <div class="info-image">
+						<img src="images/350x350.png" alt="Profile image">
+					</div> -->
 					<div class="info-about">
 						<h1 class="name">
 							<?=$l['my_name']?>
@@ -79,9 +81,6 @@ $_SESSION['key'] = $key;
 							<a href="#" target="_blank" class="download_link"><?=$l['download_resume']?></a>
 						</div>
 					</div>
-					<div class="info-image">
-						<img src="images/350x350.png" alt="Profile image">
-					</div>
 				</div>
 			</div>
 		<!-- </div> -->
@@ -90,7 +89,46 @@ $_SESSION['key'] = $key;
 		<div class="container">
 			<h1 class="title"><?=$l['skills_title']?></h1>
 			<div class="line"></div>
-			<div class="skills-list clearfix">
+			<div class="skills-blocks clearfix">
+				<div class="skill-block">
+					<div class="skill-title">Front-end</div>
+					<div class="skill-list">
+						<ul>
+							<li><p>HTML 5</p></li>
+							<li><p>CSS 3</p></li>
+							<li><p>SASS</p></li>
+							<li><p>JavaScript</p></li>
+							<li><p>jQuery</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="skill-block">
+					<div class="skill-title">Back-end</div>
+					<div class="skill-list">
+						<ul>
+							<li><p>PHP</p></li>
+							<li><p>MySQL</p></li>
+							<li><p>PostgreSQL</p></li>
+						</ul>
+					</div>
+				</div>
+				<div class="skill-block">
+					<div class="skill-title">Other</div>
+					<div class="skill-list">
+						<ul>
+							<li><p><?=$l['c#']?></p></li>
+							<li><p><?=$l['java']?></p></li>
+							<li><p>Microsoft Access</p></li>
+							<li><p>WordPress</p></li>
+							<li><p>Adobe Photoshop</p></li>
+							<li><p>English (intermediate)</p></li>
+							<li><p>Ubuntu Linux</p></li>
+							<li><p>Gulp</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="skills-list clearfix">
 				<h2 class="small-title">Front-end</h2>
 				<div class="skill-item">
 					<i class="devicon-html5-plain"></i>
@@ -154,7 +192,7 @@ $_SESSION['key'] = $key;
 					<img src="images/english.png" class="custom-icon" alt="MS Access icon">
 					<p>English (intermediate)</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
@@ -169,7 +207,7 @@ $_SESSION['key'] = $key;
 						<img src="images/appsreview.png" alt="Site logo">
 					</div>
 					<div class="work-desc">
-						<p>WordPress</p>
+						<p>WordPress, HTML, CSS, JavaScript, jQuery, PHP</p>
 					</div>
 				</div>
 				<div class="work">
@@ -177,7 +215,7 @@ $_SESSION['key'] = $key;
 						<img src="images/topchat.png" alt="Site logo">
 					</div>
 					<div class="work-desc">
-						<p>WordPress</p>
+						<p>WordPress, HTML, CSS, JavaScript, jQuery, PHP</p>
 					</div>
 				</div>
 				<div class="work">
@@ -185,7 +223,7 @@ $_SESSION['key'] = $key;
 						<p>ChainedFuture</p>
 					</div>
 					<div class="work-desc">
-						<p>WordPress</p>
+						<p>WordPress, HTML, CSS, JavaScript, jQuery, PHP</p>
 					</div>
 				</div>
 				<div class="work">
@@ -193,7 +231,7 @@ $_SESSION['key'] = $key;
 						<p>TropicalLand</p>
 					</div>
 					<div class="work-desc">
-						<p>WordPress</p>
+						<p>WordPress, HTML, CSS, JavaScript, jQuery, PHP</p>
 					</div>
 				</div>
 				<div class="work">

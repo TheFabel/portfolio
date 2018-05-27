@@ -87,7 +87,7 @@ section.header
 		display: inline-block
 		margin-right: 5px
 		color: $default-black-color
-		i
+		i, a
 			color: $default-black-color
 			transition: all .3s
 .info-about
@@ -118,10 +118,28 @@ section.header
 .info-image
 	float: right
 	width: 30%
+	text-align: center
 	img
 		border-radius: 50%
 section.skills
 	background-color: #f8f9fa
+	.skill-block
+		margin-bottom: 20px
+		float: left
+		width: 33.333%
+		padding: 0px 20px
+		.skill-title
+			font-size: 20px
+			margin-bottom: 10px
+		.skill-list
+			ul
+				list-style: square inside
+				li
+					margin-bottom: 5px
+					p
+						color: $default-black-color
+						display: inline-block
+						margin-left: -5px
 .skills-list
 	position: relative
 	margin-bottom: 30px
@@ -357,5 +375,7 @@ footer
 	padding: 30px 0
 	color: $white1
 	background-color: #1f1f1f
+	.contact-links
+		padding-top: 0
 	.contact-links ul li, .contact-links ul li i
 		color: $white1
